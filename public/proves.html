@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proves</title>
+   
+    <script type="module" src="js/Pacient.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Proves</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Section Title</h2>
+            <p>This is a paragraph in the section.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Proves. All rights reserved.</p>
+    </footer>
+    <script type="module">
+        // Example usage:
+        import Pacient from './js/Pacient.js';
+        const lluna = new Pacient('Lluna', 'ca', 'golden retriever', '2020-01-12');
+        console.log(`La edat de ${lluna.name} és ${lluna.getAge()} anys.`);
+    </script>
+</body>
+
+</html>
